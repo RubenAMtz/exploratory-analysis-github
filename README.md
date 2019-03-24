@@ -176,19 +176,6 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -345,19 +332,6 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -668,19 +642,6 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -897,19 +858,6 @@ all_data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1154,19 +1102,6 @@ data_fixed.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1427,7 +1362,7 @@ for i, col in enumerate(cat_columns):
     
 
 
-![png](output_35_1.png)
+![png](pictures/output_35_1.png)
 
 
 ### Let's just dig a little bit more in each category, for example, we see an interesting one in type: Bot, it would be interesting to see when exactly these bots were added to the system
@@ -1461,7 +1396,7 @@ plt.plot(time, bots_count, 'o')
 
 
 
-![png](output_37_2.png)
+![png](pictures/output_37_2.png)
 
 
 ### So the first bot was added in October 2016 (according to our sample) and it has been growing somehow linearly, maybe starting to be exponential?
@@ -1494,7 +1429,7 @@ plt.plot(time, count_admins, 'o', color='red', markersize=20)
 
 
 
-![png](output_39_2.png)
+![png](pictures/output_39_2.png)
 
 
 ### We only catched 3 of them at the very beginning of our sampling process, unfortunately, we can see here that our strategy wasn't the best for sampling but given the limitations of the number of calls and the amount of users retrieved by those calls, this was the best we could do.
@@ -1536,7 +1471,7 @@ plt.tick_params(top=False, bottom=False, left=False, right=False, labelleft=True
 ```
 
 
-![png](output_41_0.png)
+![png](pictures/output_41_0.png)
 
 
 ### Maybe we can say that most of the people that blog, code in JavaScript, but maybe this could be a wrong assumption as we could have sampled more repositories in JavaScript making it look this way.
@@ -1573,7 +1508,7 @@ plt.title("Average number of repositories among bloggers/non-bloggers\n\n", font
 
 
 
-![png](output_43_1.png)
+![png](pictures/output_43_1.png)
 
 
 ### We then might think that is probable that bloggers are more productive and maybe use their repositories as reference for content in their blogs (assuming they blog about coding).
@@ -1616,7 +1551,7 @@ plt.tick_params(top=False, bottom=False, left=False, right=False, labelleft=True
 ```
 
 
-![png](output_45_0.png)
+![png](pictures/output_45_0.png)
 
 
 ### We see a very similar behaviour as in bloggers, this is an obvious indicator of a trend among programming languages and their economic drive. Here the ratios between the groups seems to be fairly small for company-registered users, could this be an indicator of people that work are less present in GitHub or are working on more private repositories? and, the majority of people in GitHub have no job? Maybe they just haven't filled out the form.
@@ -1689,7 +1624,7 @@ ax.set_title("Programing languages among most followed users (99 quantile)", fon
 
 
 
-![png](output_47_2.png)
+![png](pictures/output_47_2.png)
 
 
 ### What about the location of the users, can we get some insights from it?
@@ -1887,7 +1822,7 @@ plot_programmers_distribution('all_levels/all_data_fixed_locations.csv')
 ```
 
 
-![png](output_54_0.png)
+![png](pictures/output_54_0.png)
 
 
 ### Much of what we might have expected, USA, Brasil, UK, India, South Africa and Australia are the countries with the majority of programmers wrt their own continent. Now, let's see if we can finally zoom in the country with the most programmers, USA:
@@ -1973,7 +1908,7 @@ plot_on_usa('all_levels/all_data_fixed_locations.csv', 'all_levels/usa_state_coo
 ```
 
 
-![png](output_57_0.png)
+![png](pictures/output_57_0.png)
 
 
 ### As expected California and NY are the states with the most coders.

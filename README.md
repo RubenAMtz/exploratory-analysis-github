@@ -119,9 +119,7 @@ class GitHubAPI(object):
 
 ```python
 def get_users_from_gh(gh, save_path):
-        """
-       
-        
+        """ Gets 100k users from GitHub
         """
 
         spacing = 48000

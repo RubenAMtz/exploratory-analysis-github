@@ -3,7 +3,9 @@
 **/*.zip
 **/__pycache__
 **/*.csv
-**/*.py
+**/assignment01.py
+**/assignment01_extended.py
+**/credentials.py
 **/*.zip
 **/*.rar
 **/all_levels

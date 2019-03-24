@@ -1,5 +1,15 @@
-credentials.py
 **/.vscode
 **/*.pdf
 **/*.zip
 **/__pycache__
+**/*.csv
+**/*.py
+**/*.zip
+**/*.rar
+**/all_levels
+**/first_level
+**/second_level
+**/third_level
+**/geo_pandas
+**/.ipynb_checkpoints
+**/pictures

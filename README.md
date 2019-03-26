@@ -3,7 +3,6 @@
 
 ## Summary: In this project you will find out some cool insights about the GitHub users and their code.
 
-### API selected: GitHub and Google Maps
 
 
 

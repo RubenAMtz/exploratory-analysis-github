@@ -5,8 +5,6 @@
 
 ### API selected: GitHub and Google Maps
 
-### Student Name: Ruben Alvarez Martinez
-### Student Number: 17201506
 
 
 ```python
